@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from Tools import utils
+from CycleLIB.Tools import utils
 
 class Generator(nn.Module):
     def __init__(self, img_channels, num_features=64, num_residuals=9):
